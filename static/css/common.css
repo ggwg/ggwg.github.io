@@ -1,0 +1,211 @@
+/*
+ *  for common css part
+ */
+html {
+  min-width: 1096px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.v-middle {
+  vertical-align: middle;
+}
+
+.clear::after {
+  clear: both;
+  display: block;
+  content: '';
+  visibility: hidden;
+}
+
+.po-re {
+  position: relative;
+}
+
+.po-ab {
+  position: absolute;
+}
+
+@keyframes heightChange {
+  0%{
+    height: 0;
+  }
+  100%{
+    height: 100;
+  }
+}
+
+@keyframes moveLeft-one {
+  0%{
+    margin-left: 20px;
+    opacity: .3
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1
+  }
+}
+
+@keyframes moveLeft-two {
+  0%{
+    margin-left: 30px;
+    opacity: .3
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1
+  }
+}
+
+@keyframes moveLeft-three {
+  0%{
+    margin-left: 40px;
+    opacity: .3
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1
+  }
+}
+
+@keyframes moveLeft-fore {
+  0%{
+    margin-left: 55px;
+    opacity: .3
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1
+  }
+}
+
+@keyframes moveLeft-five {
+  0%{
+    margin-left: 70px;
+    opacity: .3
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1
+  }
+}
+
+@keyframes moveLeft-six {
+  0%{
+    margin-left: 90px;
+    opacity: .3
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1
+  }
+}
+
+@keyframes moveLeft-seven {
+  0%{
+    margin-left: 110px;
+    opacity: .3
+  }
+  100%{
+    margin-left: 0;
+    opacity: 1
+  }
+}
+
+@keyframes user-box-display {
+  0%{
+    height: 150px;
+  }
+  100%{
+    height: 360px;
+  }
+}
+
+@keyframes move-left-in {
+  0%{
+    transform: translateX(60px);
+    opacity: .5;
+  }
+  100%{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes move-left-in-b {
+  0%{
+    display: none;
+    transform: translateX(60px);
+    opacity: 0;
+  }
+  100%{
+    display: block;
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes experience-to-right {
+  0%{
+    width: 0;
+    opacity: .5;
+  }
+  100%{
+    width: 70%;
+    opacity: 1;
+  }
+}
+
+@keyframes login-out {
+  0%{
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes bg-animation {
+  0%{
+    background-color: #0DBBFC;
+    transform: translate(-20%, -20%);
+    width: 50px;
+    height: 50px;
+    opacity: .3;
+  }
+  100%{
+    transform: translate(-38%, -38%);
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+  }
+}
+
+@keyframes recommend-fade {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: .5;
+  }
+}
+
+@keyframes move-right {
+  0%{
+    transform: translateX(0);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(20px);
+    opacity: 1;
+  }
+}
+/*all .4s cubic-bezier(.22,.58,.12,.98)*/
