@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Welcome to Jekyll!
-subheading: A awesome static site generator.
+title: Gavin's Test Post!
+subheading: Time to experiment with what I can do with Markdown.
 author: Jeffrey
 categories: jekyll
 banner:
@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: jekyll theme yat
+tags: welcome to my world random tag
 sidebar: []
 ---
 
