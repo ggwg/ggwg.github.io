@@ -3,7 +3,7 @@ layout: post
 title: Industry Analysis
 subtitle: What is Business Strategy?
 categories: markdown
-tags: [Business]
+tags: [Business Strategy]
 ---
 ## **Introduction**
 
