@@ -29,8 +29,7 @@ email: gavwu@outlook.com
 author: Gavin Wu
 copyright: Copyright © 2022
 description: >- # this means to ignore newlines until "baseurl:"
-  Portfolio of Gavin Wu, comprising of VR-related projects. Intended to
-  showcase projects to connections and potential recruiters.
+  Welcome to my website.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
